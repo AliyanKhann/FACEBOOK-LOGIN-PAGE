@@ -13,7 +13,11 @@ h3{color: black;font-family: 'Roboto', sans-serif; font-size: xx-large; }
       
       .form{margin-left: 850px; margin-top: -180px; 
             background-color: white ; padding: 15px; width: 400px; height: 370px;
-            border-radius: 15px;
+            border-radius: 13px;
+                  -moz-box-shadow: 0 0 10px #777777; 
+                  -webkit-box-shadow: 0 0 10px #777777; 
+                  box-shadow: 0 0 10px #777777;
+                  
     }
     .email{width: 340px; padding: 20px; margin: 5px; border-radius: 10px;  }
     #active1:hover{border-color: rgb(69, 69, 245);}
